@@ -13,10 +13,10 @@ We use historical transaction data (customers and their orders) to estimate the 
 
 The project uses two main tables:
 
-- **Customers table** – one row per customer  
+- **Customers table**: one row per customer  
   - `customer_id` and basic profile fields
 
-- **Purchases / Orders table** – one row per transaction  
+- **Purchases / Orders table**: one row per transaction  
   - `order_id`, `customer_id`, `order_date`, `price`, `quantity`, `discount`, etc.
 
 From the raw transactions, we engineer **customer-level behavioural features** and a **future high-value label**.
